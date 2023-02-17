@@ -1,10 +1,7 @@
 import React from "react";
 import "../src/project.css";
 import project1 from "../src/assets/NoteMakerApp.jpg";
-import project4 from "../src/assets/retailshopinventory.jpeg";
-import project5 from "../src/assets/recipesbuddyapp.jpeg";
-import project2 from "../src/assets/watch.jpeg";
-import project6 from "../src/assets/burgerapp.png";
+
 function Project() {
   return (
     <>
