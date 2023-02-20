@@ -2,6 +2,8 @@ import React from "react";
 import "../src/project.css";
 import project1 from "../src/assets/NoteMakerApp.jpg";
 
+import project2 from "../src/assets/event.jpg";
+
 function Project() {
   return (
     <>
@@ -9,8 +11,9 @@ function Project() {
         <div
           class="container card bg-transparent mt-1 p-5  "
           style={{
-            border: "1px solid #82b39c",
-            boxShadow: "rgba(56, 90, 73, 0.75) 12px 8px 12px",
+            border: "1px solid #ce37ad",
+
+            boxShadow: " rgba(90, 56, 88, 0.75) 12px 8px 12px",
           }}
         >
           <h1 class="sub-title text-center myname">Projects</h1>
@@ -42,7 +45,7 @@ function Project() {
                     <img src={project1} class="img-fluid" alt="" />
 
                     <div className="card-title text-center pt-2">
-                      <h4>MERN NOTES MAKER App</h4>
+                      <h4>MERN NOTES MAKER APP</h4>
                     </div>
                     <p className="text-center p-1">
                       {" "}
@@ -70,6 +73,49 @@ function Project() {
                       </a>
                       <a
                         href="https://github.com/gayathirithavamani/NOTES_MERN_BE"
+                        target="_blank"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox me-4"
+                        title="B-code"
+                      >
+                        <i class="fa fa-github text-light"> B-end</i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="card  bg-transparent border-dark">
+                    <img src={project2} class="img-fluid" alt="" />
+                    <div className="card-title text-center pt-2">
+                      <h4>EVENT MANAGEMENT</h4>
+                    </div>
+                    <p className="text-center p-1">
+                      {" "}
+                      React Js/Node Js/Express Js/MongoDB/Mongoose
+                    </p>
+                    <div className="card-footer text-center text-dark">
+                      <a
+                        href="https://github.com/gayathirithavamani/zenclass-FE"
+                        target="_blank"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox me-4"
+                        title="F-code"
+                      >
+                        <i class="fa fa-github text-light"> F-end</i>
+                      </a>
+                      <a
+                        href="https://eloquent-raindrop-005f14.netlify.app"
+                        target="_blank"
+                        data-gallery="portfolioDetailsGallery"
+                        data-glightbox="type: external"
+                        class="portfolio-details-lightbox me-4"
+                        title="Deploy link"
+                      >
+                        <i class="fa fa-link text-success"> Live</i>
+                      </a>
+                      <a
+                        href="https://github.com/gayathirithavamani/zenclass_BE"
                         target="_blank"
                         data-gallery="portfolioGallery"
                         class="portfolio-lightbox me-4"
