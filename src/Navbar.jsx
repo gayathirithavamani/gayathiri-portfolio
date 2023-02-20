@@ -56,7 +56,13 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="btn  nav-link" href="#!" role="button">
+                <a
+                  class="btn  nav-link"
+                  href="https://drive.google.com/file/d/1ALioe1zK8wrY4BOJ4yFmMizvCIQ_Nqhy/view?usp=share_link"
+                  target="blank"
+                  role="button"
+                  download
+                >
                   <i class="fas fa-download me-2"></i>
                   Download CV
                 </a>
