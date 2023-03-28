@@ -4,6 +4,8 @@ import project1 from "../src/assets/NoteMakerApp.jpg";
 
 import project2 from "../src/assets/event.jpg";
 
+import project3 from "../src/assets/download.jpg";
+
 function Project() {
   return (
     <>
@@ -116,6 +118,50 @@ function Project() {
                       </a>
                       <a
                         href="https://github.com/gayathirithavamani/zenclass_BE"
+                        target="_blank"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox me-4"
+                        title="B-code"
+                      >
+                        <i class="fa fa-github text-light"> B-end</i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="card bg-transparent border-dark">
+                    <img src={project3} class="img-fluid" alt="" />
+
+                    <div className="card-title text-center pt-2">
+                      <h4>TOTO PROJECT</h4>
+                    </div>
+                    <p className="text-center p-1">
+                      {" "}
+                      React Js/Node Js/Express Js/MongoDB/Mongoose{" "}
+                    </p>
+                    <div className="card-footer text-center text-dark">
+                      <a
+                        href="https://github.com/gayathirithavamani/TODO-MERN-FE"
+                        target="_blank"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox me-4"
+                        title="F-code"
+                      >
+                        <i class="fa fa-github text-light"> F-end</i>
+                      </a>
+                      <a
+                        href="https://grand-unicorn-e01530.netlify.app/"
+                        target="_blank"
+                        data-gallery="portfolioDetailsGallery"
+                        data-glightbox="type: external"
+                        class="portfolio-details-lightbox me-4"
+                        title="Deploy link"
+                      >
+                        <i class="fa fa-link text-success"> Live</i>
+                      </a>
+                      <a
+                        href="https://github.com/gayathirithavamani/TODO-MERN-BE"
                         target="_blank"
                         data-gallery="portfolioGallery"
                         class="portfolio-lightbox me-4"
