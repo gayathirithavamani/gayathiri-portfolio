@@ -5,7 +5,7 @@ import project1 from "../src/assets/NoteMakerApp.jpg";
 import project2 from "../src/assets/event.jpg";
 
 import project3 from "../src/assets/download.jpg";
-import project4 from "../src/assets/image.jpg";
+import project4 from "../src/assets/images.jpg";
 
 function Project() {
   return (
