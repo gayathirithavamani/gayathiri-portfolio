@@ -87,7 +87,7 @@ function Project() {
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                {/* <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="card  bg-transparent border-dark">
                     <img src={project2} class="img-fluid" alt="" />
                     <div className="card-title text-center pt-2">
@@ -128,7 +128,7 @@ function Project() {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="card bg-transparent border-dark">
