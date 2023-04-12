@@ -2,7 +2,7 @@ import React from "react";
 import "../src/project.css";
 import project1 from "../src/assets/NoteMakerApp.jpg";
 
-import project2 from "../src/assets/event.jpg";
+import project2 from "../src/assets/watch.jpeg";
 
 import project3 from "../src/assets/download.jpg";
 import project4 from "../src/assets/images.jpg";
@@ -87,11 +87,11 @@ function Project() {
                   </div>
                 </div>
 
-                {/* <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="card  bg-transparent border-dark">
                     <img src={project2} class="img-fluid" alt="" />
                     <div className="card-title text-center pt-2">
-                      <h4>EVENT MANAGEMENT</h4>
+                      <h4>WATCH MERN APP</h4>
                     </div>
                     <p className="text-center p-1">
                       {" "}
@@ -99,7 +99,7 @@ function Project() {
                     </p>
                     <div className="card-footer text-center text-dark">
                       <a
-                        href="https://github.com/gayathirithavamani/zenclass-FE"
+                        href="https://github.com/gayathirithavamani/watchFE"
                         target="_blank"
                         data-gallery="portfolioGallery"
                         class="portfolio-lightbox me-4"
@@ -108,7 +108,7 @@ function Project() {
                         <i class="fa fa-github text-light"> F-end</i>
                       </a>
                       <a
-                        href="https://eloquent-raindrop-005f14.netlify.app"
+                        href="https://symphonious-heliotrope-eb4f9f.netlify.app"
                         target="_blank"
                         data-gallery="portfolioDetailsGallery"
                         data-glightbox="type: external"
@@ -118,7 +118,7 @@ function Project() {
                         <i class="fa fa-link text-success"> Live</i>
                       </a>
                       <a
-                        href="https://github.com/gayathirithavamani/zenclass_BE"
+                        href="https://github.com/gayathirithavamani/watchBE"
                         target="_blank"
                         data-gallery="portfolioGallery"
                         class="portfolio-lightbox me-4"
@@ -128,7 +128,7 @@ function Project() {
                       </a>
                     </div>
                   </div>
-                </div> */}
+                </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="card bg-transparent border-dark">
