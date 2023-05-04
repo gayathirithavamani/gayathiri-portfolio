@@ -33,10 +33,6 @@ function Project() {
                 <span className="fw-bold  myname text-uppercase">User :-</span>{" "}
                 demo@gmail.com || password:123456789
               </p>
-              <p class="card-text text-center text-light">
-                <span className="fw-bold myname  text-uppercase">Admin :-</span>{" "}
-                onetwo@gmail.com || password: User@123456
-              </p>
             </div>
           </div>
 
