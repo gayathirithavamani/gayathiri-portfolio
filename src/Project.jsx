@@ -61,7 +61,7 @@ function Project() {
                         <i class="fa fa-github text-light"> F-end</i>
                       </a>
                       <a
-                        href="https://notes-maker-frontend.netlify.app"
+                        href="https://gayu-project-one.netlify.app"
                         target="_blank"
                         data-gallery="portfolioDetailsGallery"
                         data-glightbox="type: external"
@@ -148,7 +148,7 @@ function Project() {
                         <i class="fa fa-github text-light"> F-end</i>
                       </a>
                       <a
-                        href="https://grand-unicorn-e01530.netlify.app/"
+                        href="https://toto-project.netlify.app"
                         target="_blank"
                         data-gallery="portfolioDetailsGallery"
                         data-glightbox="type: external"
