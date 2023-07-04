@@ -5,7 +5,7 @@ import project1 from "../src/assets/NoteMakerApp.jpg";
 import project2 from "../src/assets/watch.jpeg";
 
 import project3 from "../src/assets/download.jpg";
-import project4 from "../src/assets/images.jpg";
+import project4 from "../src/assets/burgerapp.png";
 
 function Project() {
   return (
@@ -32,6 +32,11 @@ function Project() {
               <p class="card-text text-center text-light">
                 <span className="fw-bold  myname text-uppercase">User :-</span>{" "}
                 demo@gmail.com || password:123456789
+              </p>
+
+              <p class="card-text text-center text-light">
+                <span className="fw-bold myname  text-uppercase">Admin :-</span>{" "}
+                gayat2000@gmail.com || password: user@123
               </p>
             </div>
           </div>
@@ -175,7 +180,7 @@ function Project() {
                     <img src={project4} class="img-fluid" alt="" />
 
                     <div className="card-title text-center pt-2">
-                      <h4>PETTY CASH APP</h4>
+                      <h4>TASTY BURGER MERN App</h4>
                     </div>
                     <p className="text-center p-1">
                       {" "}
@@ -183,7 +188,7 @@ function Project() {
                     </p>
                     <div className="card-footer text-center text-dark">
                       <a
-                        href="https://github.com/gayathirithavamani/Frontend-Pettycash-Project"
+                        href="https://github.com/gayathirithavamani/DeliveryApp_FE"
                         target="_blank"
                         data-gallery="portfolioGallery"
                         class="portfolio-lightbox me-4"
@@ -192,7 +197,7 @@ function Project() {
                         <i class="fa fa-github text-light"> F-end</i>
                       </a>
                       <a
-                        href="https://euphonious-tiramisu-0f6a4f.netlify.app"
+                        href="https://beamish-peony-8984d1.netlify.app"
                         target="_blank"
                         data-gallery="portfolioDetailsGallery"
                         data-glightbox="type: external"
@@ -202,7 +207,7 @@ function Project() {
                         <i class="fa fa-link text-success"> Live</i>
                       </a>
                       <a
-                        href="https://github.com/gayathirithavamani/Backend--Pettycash-project"
+                        href="https://github.com/gayathirithavamani/DeliveryApp_BE"
                         target="_blank"
                         data-gallery="portfolioGallery"
                         class="portfolio-lightbox me-4"
